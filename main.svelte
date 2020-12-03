@@ -31,3 +31,36 @@ const mod = {
 {/if}
 
 </div>
+
+<style>
+.OLSKApropos {
+	background: #f5f7fa;
+
+	font-family: Arial, sans-serif;
+	font-size: 11pt;
+
+	--OLSKAproposBorder: 1px solid #e8e8e8;
+
+	/* @OLSKAproposFlexbox:Parent */
+	display: flex;
+	flex-direction: column;
+}
+
+.OLSKApropos * {
+	display: block;
+	padding: 16px;
+	border-bottom: var(--OLSKAproposBorder);
+
+	background: white;
+	text-align: left;
+}
+
+.OLSKApropos *:first-child {
+	border-top: var(--OLSKAproposBorder);
+}
+
+.OLSKAproposFeedbackButton {
+	color: inherit;
+	text-decoration: none;
+}
+</style>
