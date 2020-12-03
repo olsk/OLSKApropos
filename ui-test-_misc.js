@@ -9,5 +9,4 @@ describe('OLSKApropos_Misc', function () {
 		return browser.OLSKVisit(kDefaultRoute, item);
 	});
 
-
 });

@@ -12,6 +12,8 @@
     "OLSKExpress": "olsk/OLSKExpress",
     "OLSKRollupScaffold": "olsk/OLSKRollupScaffold",
     "OLSKSpec": "olsk/OLSKSpec",
+    "normalize.css": "latest",
+    "OLSKLayout": "olsk/OLSKLayout",
     "// I sacrifice myself for the commas of others": null
   }
 }
