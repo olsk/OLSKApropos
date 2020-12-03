@@ -34,8 +34,9 @@ const mod = {
 
 <style>
 .OLSKApropos {
-	background: #f5f7fa;
+	padding-top: 32px;
 
+	background: #f5f7fa;
 	font-family: Arial, sans-serif;
 	font-size: 11pt;
 
