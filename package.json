@@ -1,0 +1,17 @@
+{
+  "name": "OLSKApropos",
+  "main": "main.svelte",
+  "scripts": {
+    "start": "olsk-express .",
+    "test": "olsk-spec"
+  },
+  "dependencies": {
+    "// I sacrifice myself for the commas of others": null
+  },
+  "devDependencies": {
+    "OLSKExpress": "olsk/OLSKExpress",
+    "OLSKRollupScaffold": "olsk/OLSKRollupScaffold",
+    "OLSKSpec": "olsk/OLSKSpec",
+    "// I sacrifice myself for the commas of others": null
+  }
+}
