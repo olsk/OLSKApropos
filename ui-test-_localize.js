@@ -11,6 +11,7 @@ kDefaultRoute.OLSKRouteLanguageCodes.forEach(function (OLSKRoutingLanguage) {
 		const item = {
 			OLSKRoutingLanguage,
 			OLSKAproposFeedbackEmail: Math.random().toString(),
+			OLSKAproposShareData: JSON.stringify({}),
 		};
 
 		before(function() {
@@ -19,6 +20,10 @@ kDefaultRoute.OLSKRouteLanguageCodes.forEach(function (OLSKRoutingLanguage) {
 	
 		it('localizes OLSKAproposFeedbackButton', function() {
 			browser.assert.text(OLSKAproposFeedbackButton, uLocalized('OLSKAproposFeedbackButtonText'));
+		});
+	
+		it('localizes OLSKAproposShareButton', function() {
+			browser.assert.text(OLSKAproposShareButton, uLocalized('OLSKAproposShareButtonText'));
 		});
 
 		describe('OLSKAproposFeedbackButton', function test_OLSKAproposFeedbackButton () {
