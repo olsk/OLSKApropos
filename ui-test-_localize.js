@@ -26,14 +26,6 @@ kDefaultRoute.OLSKRouteLanguageCodes.forEach(function (OLSKRoutingLanguage) {
 			browser.assert.text(OLSKAproposShareButton, uLocalized('OLSKAproposShareButtonText'));
 		});
 
-		describe('OLSKAproposFeedbackButton', function test_OLSKAproposFeedbackButton () {
-
-			it('sets href', function () {
-				browser.assert.attribute(OLSKAproposFeedbackButton, 'href', 'mailto:' + item.OLSKAproposFeedbackEmail);
-			});
-
-		});
-
 	});
 
 });

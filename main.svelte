@@ -23,7 +23,7 @@ const mod = {
 <div class="OLSKApropos">
 
 {#if OLSKAproposFeedbackEmail }
-	<a class="OLSKAproposFeedbackButton" href={ 'mailto:' + OLSKAproposFeedbackEmail }>{ OLSKLocalized('OLSKAproposFeedbackButtonText') }</a>
+	<a class="OLSKAproposFeedbackButton" href={ OLSKAproposFeedbackEmail }>{ OLSKLocalized('OLSKAproposFeedbackButtonText') }</a>
 {/if}
 
 {#if OLSKAproposShareData }
