@@ -10,7 +10,7 @@ kDefaultRoute.OLSKRouteLanguageCodes.forEach(function (OLSKRoutingLanguage) {
 
 		const item = {
 			OLSKRoutingLanguage,
-			OLSKAproposFeedbackEmail: Math.random().toString(),
+			OLSKAproposFeedbackValue: Math.random().toString(),
 			OLSKAproposShareData: JSON.stringify({}),
 		};
 

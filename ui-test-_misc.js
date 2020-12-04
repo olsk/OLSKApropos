@@ -3,7 +3,7 @@ const kDefaultRoute = require('./controller.js').OLSKControllerRoutes().shift();
 describe('OLSKApropos_Misc', function () {
 
 	const item = {
-		OLSKAproposFeedbackEmail: Math.random().toString(),
+		OLSKAproposFeedbackValue: Math.random().toString(),
 		OLSKAproposShareData: JSON.stringify({
 			url: Math.random().toString(),
 		}),
@@ -16,7 +16,7 @@ describe('OLSKApropos_Misc', function () {
 	describe('OLSKAproposFeedbackButton', function test_OLSKAproposFeedbackButton () {
 
 		it('sets href', function () {
-			browser.assert.attribute(OLSKAproposFeedbackButton, 'href', item.OLSKAproposFeedbackEmail);
+			browser.assert.attribute(OLSKAproposFeedbackButton, 'href', item.OLSKAproposFeedbackValue);
 		});
 
 	});

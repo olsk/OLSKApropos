@@ -1,5 +1,5 @@
 <script>
-export let OLSKAproposFeedbackEmail = null;
+export let OLSKAproposFeedbackValue = null;
 export let OLSKAproposShareData = null;
 
 import { OLSKLocalized } from 'OLSKInternational';
@@ -22,8 +22,8 @@ const mod = {
 
 <div class="OLSKApropos">
 
-{#if OLSKAproposFeedbackEmail }
-	<a class="OLSKAproposFeedbackButton" href={ OLSKAproposFeedbackEmail }>{ OLSKLocalized('OLSKAproposFeedbackButtonText') }</a>
+{#if OLSKAproposFeedbackValue }
+	<a class="OLSKAproposFeedbackButton" href={ OLSKAproposFeedbackValue }>{ OLSKLocalized('OLSKAproposFeedbackButtonText') }</a>
 {/if}
 
 {#if OLSKAproposShareData }

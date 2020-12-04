@@ -28,11 +28,11 @@ describe('OLSKApropos_Access', function () {
 		browser.assert.elements(OLSKAproposShareButton, 0);
 	});
 
-	context('OLSKAproposFeedbackEmail', function () {
+	context('OLSKAproposFeedbackValue', function () {
 
 		before(function() {
 			return browser.OLSKVisit(kDefaultRoute, {
-				OLSKAproposFeedbackEmail: Math.random().toString(),
+				OLSKAproposFeedbackValue: Math.random().toString(),
 			});
 		});
 
