@@ -23,12 +23,12 @@ describe('OLSKApropos_Misc', function () {
 
 	describe('OLSKAproposShareButton', function test_OLSKAproposShareButton () {
 
-		it('classes OLSKLayoutButtonNoStyle', function () {
-			browser.assert.hasClass(OLSKAproposShareButton, 'OLSKLayoutButtonNoStyle');
+		it('classes OLSKDecorButtonNoStyle', function () {
+			browser.assert.hasClass(OLSKAproposShareButton, 'OLSKDecorButtonNoStyle');
 		});
 
-		it('classes OLSKLayoutElementTappable', function () {
-			browser.assert.hasClass(OLSKAproposShareButton, 'OLSKLayoutElementTappable');
+		it('classes OLSKDecorTappable', function () {
+			browser.assert.hasClass(OLSKAproposShareButton, 'OLSKDecorTappable');
 		});
 
 		context('click', function () {

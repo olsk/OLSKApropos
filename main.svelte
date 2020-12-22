@@ -27,7 +27,7 @@ const mod = {
 {/if}
 
 {#if OLSKAproposShareData }
-	<button class="OLSKAproposShareButton OLSKLayoutButtonNoStyle OLSKLayoutElementTappable" on:click={ mod.InterfaceShareButtonDidClick }>{ OLSKLocalized('OLSKAproposShareButtonText') }</button>
+	<button class="OLSKAproposShareButton OLSKDecorButtonNoStyle OLSKDecorTappable" on:click={ mod.InterfaceShareButtonDidClick }>{ OLSKLocalized('OLSKAproposShareButtonText') }</button>
 {/if}
 
 </div>
