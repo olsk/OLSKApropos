@@ -34,7 +34,7 @@ describe('OLSKApropos_Misc', function () {
 		context('click', function () {
 			
 			it('calls navigator.share', async function () {
-				browser.assert.deepEqual(await browser.OLSKAlertTextAsync(function () {
+				browser.assert.deepEqual(await browser.OLSKAlertAsync(function () {
 					return browser.pressButton(OLSKAproposShareButton);
 				}), item.OLSKAproposShareData);
 			});
