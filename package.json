@@ -5,13 +5,9 @@
     "start": "olsk-express .",
     "test": "olsk-spec"
   },
-  "dependencies": {
-    "// I sacrifice myself for the commas of others": null
-  },
   "devDependencies": {
-    "OLSKExpress": "olsk/OLSKExpress",
+    "OLSKPithToolchain": "olsk/OLSKPithToolchain",
     "OLSKRollupScaffold": "olsk/OLSKRollupScaffold",
-    "OLSKSpec": "olsk/OLSKSpec",
     "normalize.css": "latest",
     "OLSKDecor": "olsk/OLSKDecor",
     "// I sacrifice myself for the commas of others": null
