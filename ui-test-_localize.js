@@ -6,7 +6,7 @@ kDefaultRoute.OLSKRouteLanguageCodes.forEach(function (OLSKRoutingLanguage) {
 		return OLSKTestingLocalized(inputData, OLSKRoutingLanguage);
 	};
 
-	describe(`OLSKApropos_Localize-${ OLSKRoutingLanguage }`, function () {
+	describe('OLSKApropos_Localize-' + OLSKRoutingLanguage, function () {
 
 		const item = {
 			OLSKRoutingLanguage,
