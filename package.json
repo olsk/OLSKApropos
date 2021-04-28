@@ -1,15 +1,8 @@
 {
   "name": "OLSKApropos",
   "main": "main.svelte",
-  "scripts": {
-    "start": "olsk-express .",
-    "test": "olsk-spec"
-  },
   "devDependencies": {
-    "OLSKPithToolchain": "olsk/OLSKPithToolchain",
-    "OLSKRollupScaffold": "olsk/OLSKRollupScaffold",
     "normalize.css": "latest",
-    "OLSKDecor": "olsk/OLSKDecor",
-    "// I sacrifice myself for the commas of others": null
+    "OLSKDecor": "olsk/OLSKDecor"
   }
 }
