@@ -7,7 +7,7 @@ Object.entries({
 
 	OLSKAproposShareButton: '.OLSKAproposShareButton',
 }).map(function (e) {
-	return global[e.shift()]  = e.pop();
+	return global[e.shift()] = e.pop();
 });
 
 describe('OLSKApropos_Access', function () {
