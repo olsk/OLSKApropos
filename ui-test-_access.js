@@ -17,15 +17,15 @@ describe('OLSKApropos_Access', function () {
 	});
 
 	it('shows OLSKApropos', function () {
-		browser.assert.elements(OLSKApropos, 1);
+		return browser.assert.elements(OLSKApropos, 1);
 	});
 
 	it('hides OLSKAproposFeedbackButton', function () {
-		browser.assert.elements(OLSKAproposFeedbackButton, 0);
+		return browser.assert.elements(OLSKAproposFeedbackButton, 0);
 	});
 
 	it('hides OLSKAproposShareButton', function () {
-		browser.assert.elements(OLSKAproposShareButton, 0);
+		return browser.assert.elements(OLSKAproposShareButton, 0);
 	});
 
 	context('OLSKAproposFeedbackValue', function () {
@@ -37,7 +37,7 @@ describe('OLSKApropos_Access', function () {
 		});
 
 		it('shows OLSKAproposFeedbackButton', function () {
-			browser.assert.elements(OLSKAproposFeedbackButton, 1);
+			return browser.assert.elements(OLSKAproposFeedbackButton, 1);
 		});
 
 	});
@@ -51,7 +51,7 @@ describe('OLSKApropos_Access', function () {
 		});
 
 		it('shows OLSKAproposShareButton', function () {
-			browser.assert.elements(OLSKAproposShareButton, 1);
+			return browser.assert.elements(OLSKAproposShareButton, 1);
 		});
 
 	});

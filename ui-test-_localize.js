@@ -19,11 +19,11 @@ kDefaultRoute.OLSKRouteLanguageCodes.forEach(function (OLSKRoutingLanguage) {
 		});
 	
 		it('localizes OLSKAproposFeedbackButton', function() {
-			browser.assert.text(OLSKAproposFeedbackButton, uLocalized('OLSKAproposFeedbackButtonText'));
+			return browser.assert.text(OLSKAproposFeedbackButton, uLocalized('OLSKAproposFeedbackButtonText'));
 		});
 	
 		it('localizes OLSKAproposShareButton', function() {
-			browser.assert.text(OLSKAproposShareButton, uLocalized('OLSKAproposShareButtonText'));
+			return browser.assert.text(OLSKAproposShareButton, uLocalized('OLSKAproposShareButtonText'));
 		});
 
 	});

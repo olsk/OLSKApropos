@@ -16,7 +16,7 @@ describe('OLSKApropos_Misc', function () {
 	describe('OLSKAproposFeedbackButton', function test_OLSKAproposFeedbackButton () {
 
 		it('sets href', function () {
-			browser.assert.attribute(OLSKAproposFeedbackButton, 'href', item.OLSKAproposFeedbackValue);
+			return browser.assert.attribute(OLSKAproposFeedbackButton, 'href', item.OLSKAproposFeedbackValue);
 		});
 
 	});
@@ -24,11 +24,11 @@ describe('OLSKApropos_Misc', function () {
 	describe('OLSKAproposShareButton', function test_OLSKAproposShareButton () {
 
 		it('classes OLSKDecorButtonNoStyle', function () {
-			browser.assert.hasClass(OLSKAproposShareButton, 'OLSKDecorButtonNoStyle');
+			return browser.assert.hasClass(OLSKAproposShareButton, 'OLSKDecorButtonNoStyle');
 		});
 
 		it('classes OLSKDecorTappable', function () {
-			browser.assert.hasClass(OLSKAproposShareButton, 'OLSKDecorTappable');
+			return browser.assert.hasClass(OLSKAproposShareButton, 'OLSKDecorTappable');
 		});
 
 		context('click', function () {
